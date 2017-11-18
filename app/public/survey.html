@@ -234,13 +234,15 @@
             ]
         };
         console.log('userInput = ' + JSON.stringify(userInput));
-        // Add user inputs to friends list
-        $.post('/api/friends', userInput)
+        // Add user inputs to character list
+        $.post('/api/characters', userInput)
             .done(function(data) {
                 console.log('response = ' + JSON.stringify(data));
-                // Set the name and image values of friend match
+                
+                // Set the name and image values of character match
                 $('#userMatch').html(data.matchName);
                 $("#userMatchImage").attr("src", data.matchImage);
+                
                 // Pop open the modal dialog
                 $('#modal1').modal('open');
             });

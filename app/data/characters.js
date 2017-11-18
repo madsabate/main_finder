@@ -3,7 +3,7 @@
 var charactersArray = [
     {
         name: 'Asuka Kazama',
-        photo: '',
+        photo: 'Asuka.jpg',
         scores: [
             '1',//1
             '3',//2
@@ -23,7 +23,7 @@ var charactersArray = [
 
     {
         name: 'Alisa Bosconovitch',
-        photo: '',
+        photo: 'Alisa.jpg',
         scores: [
             '1',//1
             '2',//2
@@ -43,7 +43,7 @@ var charactersArray = [
 
     {
         name: 'Akuma',
-        photo: '',
+        photo: 'Akuma.jpg',
         scores: [
             '4',//1
             '3',//2
@@ -63,7 +63,7 @@ var charactersArray = [
 
     {
         name: 'Bryan Fury',
-        photo: '',
+        photo: 'Bryan.jpg',
         scores: [
             '3',//1
             '2',//2
@@ -83,7 +83,7 @@ var charactersArray = [
    
     {
         name: 'Bob Richards',
-        photo: '',
+        photo: 'Bob.jpg',
         scores: [
             '3',//1
             '2',//2
@@ -103,7 +103,7 @@ var charactersArray = [
 
     {
         name: 'Claudio Serafino',
-        photo: '',
+        photo: 'Claudio.jpg',
         scores: [
             '2',//1
             '3',//2
@@ -123,7 +123,7 @@ var charactersArray = [
 
     {
         name: 'Devil Jin',
-        photo: '',
+        photo: 'Deviljin.jpg',
         scores: [
             '3',//1
             '5',//2
@@ -143,7 +143,7 @@ var charactersArray = [
 
     {
         name: 'Eddy Gordo',
-        photo: '',
+        photo: 'Eddy.jpg',
         scores: [
             '4',//1
             '2',//2
@@ -163,7 +163,7 @@ var charactersArray = [
 
     {
         name: 'Feng Wei',
-        photo: '',
+        photo: 'Feng.jpg',
         scores: [
             '4',//1
             '3',//2
@@ -183,7 +183,7 @@ var charactersArray = [
 
     {
         name: 'Gigas',
-        photo: '',
+        photo: 'Gigas.jpg',
         scores: [
             '2',//1
             '3',//2
@@ -203,7 +203,7 @@ var charactersArray = [
 
     {
         name: 'Heihachi Mishima',
-        photo: '',
+        photo: 'Heihachi.jpg',
         scores: [
             '5',//1
             '1',//2
@@ -223,7 +223,7 @@ var charactersArray = [
 
     {
         name: 'Hwoarang',
-        photo: '',
+        photo: 'Hwoarang.jpg',
         scores: [
             '5',//1
             '1',//2
@@ -243,7 +243,7 @@ var charactersArray = [
 
     {
         name: 'Jack 7',
-        photo: '',
+        photo: 'Jack7.jpg',
         scores: [
             '1',//1
             '3',//2
@@ -263,7 +263,7 @@ var charactersArray = [
 
     {
         name: 'Jin Kazama',
-        photo: '',
+        photo: 'Jin.jpg',
         scores: [
             '3',//1
             '5',//2
@@ -283,7 +283,7 @@ var charactersArray = [
 
     {
         name: 'Josie Rizal',
-        photo: '',
+        photo: 'Josie.jpg',
         scores: [
             '3',//1
             '3',//2
@@ -303,7 +303,7 @@ var charactersArray = [
     
     {
         name: 'Katarina Alves',
-        photo: '',
+        photo: 'Katarina.jpg',
         scores: [
             '4',//1
             '2',//2
@@ -323,7 +323,7 @@ var charactersArray = [
 
     {
         name: 'Kazumi Mishima',
-        photo: '',
+        photo: 'Kazumi.jpg',
         scores: [
             '5',//1
             '2',//2
@@ -343,7 +343,7 @@ var charactersArray = [
 
     {
         name: 'Kazuya Mishima',
-        photo: '',
+        photo: 'Kazuya.jpg',
         scores: [
             '1',//1
             '2',//2
@@ -363,7 +363,7 @@ var charactersArray = [
 
     {
         name: 'King',
-        photo: '',
+        photo: 'King.jpg',
         scores: [
             '3',//1
             '2',//2
@@ -383,7 +383,7 @@ var charactersArray = [
 
     {
         name: 'The Bears (Kuma, Panda)',
-        photo: '',
+        photo: 'Kumapanda.jpg',
         scores: [
             '4',//1
             '3',//2
@@ -403,7 +403,7 @@ var charactersArray = [
 
     {
         name: 'Lars Alexanderson',
-        photo: '',
+        photo: 'Lars.jpg',
         scores: [
             '3',//1
             '2',//2
@@ -417,6 +417,287 @@ var charactersArray = [
             '1',//10
             '4',//11
             '5'//12
+        ]
+
+    },
+
+    {
+        name: 'Lee Chaolan',
+        photo: 'Lee.jpg',
+        scores: [
+            '4',//1
+            '3',//2
+            '2',//3
+            '4',//4
+            '3',//5
+            '2',//6
+            '1',//7
+            '3',//8
+            '1',//9
+            '1',//10
+            '2',//11
+            '1'//12
+        ]
+
+    },
+
+    {
+        name: 'Leo Kliesen',
+        photo: 'Leo.jpg',
+        scores: [
+            '5',//1
+            '4',//2
+            '3',//3
+            '1',//4
+            '3',//5
+            '4',//6
+            '1',//7
+            '4',//8
+            '1',//9
+            '5',//10
+            '2',//11
+            '5'//12
+        ]
+
+    },
+
+    {
+        name: 'Lili Rochefort',
+        photo: 'Lili.jpg',
+        scores: [
+            '4',//1
+            '4',//2
+            '2',//3
+            '1',//4
+            '1',//5
+            '2',//6
+            '1',//7
+            '4',//8
+            '1',//9
+            '2',//10
+            '3',//11
+            '2'//12
+        ]
+
+    },
+
+    {
+        name: 'Ling Xiaoyu',
+        photo: 'Ling.jpg',
+        scores: [
+            '3',//1
+            '4',//2
+            '3',//3
+            '5',//4
+            '3',//5
+            '3',//6
+            '1',//7
+            '5',//8
+            '3',//9
+            '2',//10
+            '1',//11
+            '3'//12
+        ]
+
+    },
+
+    {
+        name: 'Lucky Chloe',
+        photo: 'Luckychloe.jpg',
+        scores: [
+            '4',//1
+            '3',//2
+            '2',//3
+            '1',//4
+            '2',//5
+            '5',//6
+            '1',//7
+            '3',//8
+            '4',//9
+            '2',//10
+            '4',//11
+            '5'//12
+        ]
+
+    },
+
+    {
+        name: 'Marshall Law',
+        photo: 'Law.jpg',
+        scores: [
+            '5',//1
+            '2',//2
+            '4',//3
+            '1',//4
+            '1',//5
+            '3',//6
+            '1',//7
+            '4',//8
+            '1',//9
+            '1',//10
+            '3',//11
+            '5'//12
+        ]
+
+    },
+
+
+    {
+        name: 'Master Raven',
+        photo: 'Mraven.jpg',
+        scores: [
+            '3',//1
+            '4',//2
+            '3',//3
+            '4',//4
+            '2',//5
+            '2',//6
+            '5',//7
+            '3',//8
+            '4',//9
+            '4',//10
+            '5',//11
+            '3'//12
+        ]
+
+    },
+
+    {
+        name: 'Miguel Caballero Rojo',
+        photo: 'Miguel.jpg',
+        scores: [
+            '5',//1
+            '4',//2
+            '2',//3
+            '2',//4
+            '1',//5
+            '5',//6
+            '1',//7
+            '3',//8
+            '3',//9
+            '5',//10
+            '2',//11
+            '5'//12
+        ]
+
+    },
+
+    {
+        name: 'Nina Williams',
+        photo: 'Nina.jpg',
+        scores: [
+            '5',//1
+            '4',//2
+            '2',//3
+            '4',//4
+            '2',//5
+            '4',//6
+            '1',//7
+            '4',//8
+            '1',//9
+            '4',//10
+            '3',//11
+            '4'//12
+        ]
+
+    },
+
+    {
+        name: 'Paul Phoenix',
+        photo: 'Paul.jpg',
+        scores: [
+            '5',//1
+            '3',//2
+            '2',//3
+            '1',//4
+            '2',//5
+            '5',//6
+            '1',//7
+            '2',//8
+            '1',//9
+            '4',//10
+            '2',//11
+            '5'//12
+        ]
+
+    },
+
+    {
+        name: 'Sergei Dragunov',
+        photo: 'Dragunov.jpg',
+        scores: [
+            '5',//1
+            '4',//2
+            '2',//3
+            '1',//4
+            '2',//5
+            '4',//6
+            '3',//7
+            '4',//8
+            '1',//9
+            '4',//10
+            '3',//11
+            '5'//12
+        ]
+
+    },
+
+    {
+        name: 'Shaheen',
+        photo: 'Shaheen.jpg',
+        scores: [
+            '4',//1
+            '2',//2
+            '3',//3
+            '1',//4
+            '3',//5
+            '2',//6
+            '1',//7
+            '3',//8
+            '1',//9
+            '3',//10
+            '2',//11
+            '3'//12
+        ]
+
+    },
+
+    {
+        name: 'Steve Fox',
+        photo: 'Steve.jpg',
+        scores: [
+            '5',//1
+            '4',//2
+            '2',//3
+            '5',//4
+            '2',//5
+            '4',//6
+            '1',//7
+            '3',//8
+            '3',//9
+            '5',//10
+            '2',//11
+            '3'//12
+        ]
+
+    },
+
+    {
+        name: 'Yoshimitsu',
+        photo: 'Yoshimitsu.jpg',
+        scores: [
+            '4',//1
+            '4',//2
+            '2',//3
+            '5',//4
+            '4',//5
+            '3',//6
+            '1',//7
+            '4',//8
+            '5',//9
+            '2',//10
+            '2',//11
+            '3'//12
         ]
 
     }

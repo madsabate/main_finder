@@ -5,14 +5,13 @@ var path = require('path');
 var characters = require('../data/characters.js');
 
 // Export API routes
-module.exports = function(app) {    
+module.exports = function(app) {   
 console.log('__ENTER apiRoutes.js__');
-}
 
-// Total list of entries
-// app.get('/api/characters', function(req, res){
-//     res.json(characters);
-// });
+//Total list of entries
+app.get('/api/characters', function(req, res){
+    res.json(characters);
+});
 
 // Add new character entry
 app.post('/api/characters', function(req, res) {
@@ -30,19 +29,19 @@ app.post('/api/characters', function(req, res) {
 
     // Examine all existing characters in the list
     for (var i = 0; i < characters.length; i++) {
-        console.log('Character = ' + JSON.stringify(friends[i]));
+        console.log('Character = ' + JSON.stringify(characters[i]));
 
         // Compute differences for each question
         var diff = 0;
         for (var j = 0; j < userResponses.length; j++) {
-            diff += math.abs(characters[i].scores[j] - userResponses[j]);
+            diff += Math.abs(characters[i].scores[j] - userResponses[j]);
         }
         console.log('Difference = ' + diff);
 
         if (diff < totalDifference){
             console.log('Closest match found = ' + diff);
             console.log('Character name = ' + characters[i].name);
-            console.log('Friend image = ' + characters[i].photo);
+            console.log('Character image = ' + characters[i].photo);
 
             totalDifference = diff;
             matchName = characters[i].name;
@@ -52,9 +51,11 @@ app.post('/api/characters', function(req, res) {
     }
 
     // Add new user
-    characters.push(userInput);s
+    characters.push(userInput);
+
 
     // Sends appropriate response
-    res.json({status: 'OK', matchname: matchName, matchImage: matchImage})
+    res.json({status: 'OK', matchName: matchName, matchImage: matchImage})
+})
     
-});
+};

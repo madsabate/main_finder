@@ -22,6 +22,6 @@ require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
 
 // Sets up server, app starts listenings on port 3000
 app.listen(PORT, function() {
-    console.log('Friend Finder is listening on PORT: ' + PORT);
+    console.log('MainFinder is listening on PORT: ' + PORT);
 
 });
